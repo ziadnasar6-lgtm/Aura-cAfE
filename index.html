@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aura Cafe - A premium coffee experience.">
+    <title>Aura Cafe | Premium Coffee</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Aura<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h1 class="hero-title">Awaken Your Senses</h1>
+            <p class="hero-subtitle">Experience the finest craft coffee in a modern, cozy atmosphere.</p>
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container about-grid">
+            <div class="about-text reveal">
+                <h2 class="section-title">Our Story</h2>
+                <p>At Aura Cafe, we believe that every cup tells a story. We source the finest beans from sustainable farms around the world and roast them to perfection. Our passion for coffee is matched only by our dedication to creating a warm, inviting space for our community.</p>
+                <a href="#contact" class="btn btn-secondary">Visit Us</a>
+            </div>
+            <div class="about-image reveal">
+                <div class="image-wrapper">
+                    <img src="assets/images/coffee_latte.png" alt="Premium Latte Art">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <div class="menu-header reveal">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="menu-tabs">
+                    <button class="tab-btn active" data-filter="all">All</button>
+                    <button class="tab-btn" data-filter="coffee">Coffee</button>
+                    <button class="tab-btn" data-filter="pastry">Pastries</button>
+                </div>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Coffee Item 1 -->
+                <div class="menu-item reveal coffee" data-category="coffee">
+                    <div class="menu-item-img">
+                        <img src="assets/images/coffee_latte.png" alt="Signature Latte">
+                        <div class="price">$5.50</div>
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Signature Latte</h3>
+                        <p>Rich espresso blended with steamed milk and a light layer of foam.</p>
+                    </div>
+                </div>
+
+                <!-- Coffee Item 2 -->
+                <div class="menu-item reveal coffee" data-category="coffee">
+                    <div class="menu-item-img">
+                        <img src="assets/images/coffee_latte.png" alt="Dark Espresso">
+                        <div class="price">$3.50</div>
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Dark Espresso</h3>
+                        <p>A double shot of our bold, aromatic house blend.</p>
+                    </div>
+                </div>
+
+                <!-- Pastry Item 1 -->
+                <div class="menu-item reveal pastry" data-category="pastry">
+                    <div class="menu-item-img">
+                        <img src="assets/images/pastry_croissant.png" alt="Butter Croissant">
+                        <div class="price">$4.00</div>
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Butter Croissant</h3>
+                        <p>Flaky, golden, and baked fresh every morning.</p>
+                    </div>
+                </div>
+
+                <!-- Pastry Item 2 -->
+                <div class="menu-item reveal pastry" data-category="pastry">
+                    <div class="menu-item-img">
+                        <img src="assets/images/pastry_croissant.png" alt="Chocolate Croissant">
+                        <div class="price">$4.50</div>
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Pain au Chocolat</h3>
+                        <p>Our classic croissant filled with rich, dark chocolate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">Aura<span>.</span></a>
+                <p>The premium coffee destination.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>123 Coffee Lane, Brew City</p>
+                <p>hello@auracafe.com</p>
+                <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Opening Hours</h3>
+                <p>Mon - Fri: 7am - 8pm</p>
+                <p>Sat - Sun: 8am - 9pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aura Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+</html>
