@@ -8,7 +8,7 @@ A modern, elegant, and fully responsive single-page landing page designed for a 
 
 ## 🚀 Live Demo
 *(Once deployed, add your hosting or GitHub Pages link below)*
-> **Live Link:** [Click here to explore Aura Cafe](https://your-username.github.io/your-repository-name)
+> **Live Link:** [Click here to explore Aura Cafe](https://ziadnasar6-lgtm.github.io/Aura-cAfE/)
 
 ---
 
